@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0B132B;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+h1 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 25px;
+  margin: 30px 25px;
+}
+
+.Input-style {
+  margin: 25px;
+  position: relative;
+}
+
+.text-area {
+  width: 310px;
+  height: 45px;
+  padding: 15px;
+  background-color: #1C2541;
+  border: none;
+  border-radius: 10px;
+  color: #3A506B;
+  font-size: 16px;
+  outline: none;
+}
+
+.text-area::placeholder {
+  color: #3A506B;
+  font-weight: 400;
+}
+
+.check {
+  color: #3A506B;
+  position: absolute;
+  top: 31%;
+  right: 15px;
+  font-size: 20px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.check1 {
+  color: #3A506B;
+  position: absolute;
+  top: 31%;
+  right: 15px;
+  font-size: 13px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.check2 {
+  color: #3A506B;
+  position: absolute;
+  top: 31%;
+  right: 15px;
+  font-size: 13px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.check3 {
+  color: #3A506B;
+  position: absolute;
+  top: 31%;
+  right: 15px;
+  font-size: 13px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
